@@ -3,9 +3,9 @@ import { motion, useInView } from 'framer-motion';
 import { Send, Github, Linkedin, Mail, Twitter, MapPin, CheckCircle } from 'lucide-react';
 
 const socialLinks = [
-  { name: 'GitHub', icon: Github, url: 'https://github.com', color: 'hover:text-foreground' },
-  { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com', color: 'hover:text-accent' },
-  { name: 'Twitter', icon: Twitter, url: 'https://twitter.com', color: 'hover:text-accent' },
+  { name: 'GitHub', icon: Github, url: 'https://github.com/SameepArya23', color: 'hover:text-foreground' },
+  { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/sameeparya', color: 'hover:text-accent' },
+  { name: 'Twitter', icon: Twitter, url: 'https://x.com/sameep96023', color: 'hover:text-accent' },
   { name: 'Email', icon: Mail, url: 'mailto:sameeparya02@gmail.com', color: 'hover:text-primary' },
 ];
 

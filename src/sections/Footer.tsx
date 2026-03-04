@@ -10,9 +10,9 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
+  { icon: Github, href: 'https://github.com/SameepArya23', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/sameeparya', label: 'LinkedIn' },
+  { icon: Twitter, href: 'https://x.com/sameep96023', label: 'Twitter' },
   { icon: Mail, href: 'mailto:sameeparya02@gmail.com', label: 'Email' },
 ];
 

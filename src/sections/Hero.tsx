@@ -146,8 +146,8 @@ export function Hero() {
               <span className="text-sm text-muted-foreground">Follow me:</span>
               <div className="flex gap-3">
                 {[
-                  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-                  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
+                  { icon: Github, href: 'https://github.com/SameepArya23', label: 'GitHub' },
+                  { icon: Linkedin, href: 'https://www.linkedin.com/in/sameeparya', label: 'LinkedIn' },
                   { icon: Mail, href: 'mailto:sameeparya02@gmail.com', label: 'Email' },
                 ].map((social) => (
                   <motion.a
