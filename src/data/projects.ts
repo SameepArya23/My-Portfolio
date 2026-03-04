@@ -1,6 +1,7 @@
 import repolumeImg from "../assets/repolume.png";
 import phantomscapeImg from "../assets/phantom.png";
 import portfolioImg from "../assets/portfolio.png";
+import ecommerceImg from "../assets/e-commerce.png";
 
 export interface Project {
   id: string;
@@ -145,8 +146,8 @@ export const projects: Project[] = [
       "Repolume is an intelligent developer tool that analyzes public GitHub repositories and generates clear explanations of their architecture, folder structure, tech stack, and core functionality. It leverages LLM capabilities to simplify complex codebases, making onboarding, learning, and code reviews significantly faster.",
     image: repolumeImg, // Replace with your actual image
     tags: ["Next.js", "TypeScript", "OpenAI", "Node.js", "GitHub API"],
-    githubUrl: "https://github.com/your-username/repolume",
-    liveUrl: "https://your-live-url.com",
+    githubUrl: "https://github.com/SameepArya23/Repolume",
+    liveUrl: "https://repolume.vercel.app/",
     features: [
       "Automated repository structure analysis",
       "AI-generated architecture explanation",
@@ -176,8 +177,8 @@ export const projects: Project[] = [
       "PhantomScape-3D is a visually immersive 3D web experience built using Three.js. It renders a realistic outdoor haunted environment with high-resolution textures, dynamic lighting, sky rendering, and interactive camera controls. The application supports real-time parameter tweaking for debugging and development optimization.",
     image: phantomscapeImg, // Replace with your actual image
     tags: ["Three.js", "JavaScript", "WebGL", "GLTF", "Dat.GUI"],
-    githubUrl: "https://github.com/your-username/phantomscape-3d",
-    liveUrl: "https://your-live-url.com",
+    githubUrl: "https://github.com/SameepArya23/PhantomScape-3D",
+    liveUrl: "https://phantom-scape-3-d.vercel.app/",
     features: [
       "Realistic textured floor and materials",
       "Dynamic lighting and shadow system",
@@ -207,8 +208,8 @@ export const projects: Project[] = [
       "A fully responsive and performance-optimized portfolio website built to showcase my projects, technical expertise, and interactive frontend capabilities. It includes smooth animations, project filtering, and a clean UI focused on user experience and clarity.",
     image: portfolioImg, // Replace with your actual image
     tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    githubUrl: "https://github.com/your-username/portfolio",
-    liveUrl: "https://your-live-url.com",
+    githubUrl: "https://github.com/SameepArya23/My-Portfolio",
+    liveUrl: "https://my-portfolio-lemon-omega-53.vercel.app/",
     features: [
       "Fully responsive design",
       "Smooth animations and transitions",
@@ -228,5 +229,36 @@ export const projects: Project[] = [
       "Structuring scalable project data"
     ],
     color: "#0ea5e9"
+  },
+  {
+    id: "ecommerce-clothing",
+    title: "Threadly – E-commerce Clothing Store (Frontend)",
+    description:
+      "Modern frontend e-commerce clothing website with product browsing, filtering, and cart functionality.",
+    longDescription:
+      "Threadly is a fully responsive frontend e-commerce clothing application focused on delivering a smooth and visually appealing shopping experience. It includes product listings, category filtering, sorting, cart management, and a simulated checkout flow. The project emphasizes clean UI design, reusable components, and efficient state management.",
+    image: ecommerceImg, // Replace with your actual image
+    tags: ["React", "TypeScript", "Tailwind CSS", "Context API"],
+    githubUrl: "https://github.com/SameepArya23/poks",
+    liveUrl: "https://cranky-cs-app.vercel.app/home",
+    features: [
+      "Product listing with filtering and sorting",
+      "Dynamic shopping cart management",
+      "Responsive design for all devices",
+      "Reusable UI components",
+      "Mock checkout flow"
+    ],
+    architecture: [
+      "Component-based React architecture",
+      "Context API for global cart state",
+      "Modular folder structure",
+      "Optimized rendering and state updates"
+    ],
+    challenges: [
+      "Managing cart state across multiple components",
+      "Designing a scalable component structure",
+      "Ensuring smooth UI updates without backend support"
+    ],
+    color: "#f97316"
   }
 ];
