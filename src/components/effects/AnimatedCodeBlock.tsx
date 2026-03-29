@@ -5,10 +5,10 @@ const codeLines = [
   { text: 'const developer = {', color: 'text-purple-400' },
   { text: '  name: "Sameep Arya",', color: 'text-green-400' },
   { text: '  role: "Frontend Engineer",', color: 'text-green-400' },
-  { text: '  skills: ["React", "TypeScript", "Node"],', color: 'text-yellow-400' },
+  { text: '  skills: ["React.js", "Next.js", "Three.js"],', color: 'text-yellow-400' },
   { text: '  passion: "Building amazing UX",', color: 'text-green-400' },
   { text: '  experience: 3+,', color: 'text-blue-400' },
-  { text: '  available: true', color: 'text-orange-400' },
+  // { text: '  available: true', color: 'text-orange-400' },
   { text: '};', color: 'text-purple-400' },
 ];
 

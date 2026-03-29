@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useEffect, useRef, useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 // Sections
@@ -11,6 +12,9 @@ import { Footer } from './sections/Footer';
 import { Hero } from './sections/Hero';
 import { Navigation } from './sections/Navigation';
 import { Projects } from './sections/Projects';
+
+// Pages
+import { ResumePage } from './pages/ResumePage';
 
 // Hooks
 import { useScrollProgress } from './hooks/useScrollProgress';
@@ -135,7 +139,7 @@ function ProgressBar() {
 }
 
 // Custom Cursor Component
-function CustomCursor() {
+export function CustomCursor() {
   const cursorRef = useRef<HTMLDivElement>(null);
   const cursorDotRef = useRef<HTMLDivElement>(null);
   const [isHovering, setIsHovering] = useState(false);
@@ -304,4 +308,15 @@ function App() {
   );
 }
 
-export default App;
+function Root() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/resume" element={<ResumePage />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default Root;

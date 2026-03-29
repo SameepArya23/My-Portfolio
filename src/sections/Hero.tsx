@@ -126,14 +126,14 @@ export function Hero() {
                 View Projects
                 <ArrowDown className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
               </motion.button>
-              <motion.button
+              {/* <motion.button
                 onClick={() => handleScrollTo('#blog')}
                 className="px-8 py-4 bg-secondary/30 hover:bg-secondary/60 text-foreground font-medium rounded-full border border-border transition-all flex items-center justify-center"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 Read Blog
-              </motion.button>
+              </motion.button> */}
             </motion.div>
 
             {/* Social Links */}
